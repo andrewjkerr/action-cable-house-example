@@ -1,24 +1,7 @@
-## README
+## action-cable-house-example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following http://www.sitepoint.com/action-cable-and-websockets-an-in-depth-tutorial.
 
-Things you may want to cover:
+### Article Corrections
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- When setting up, make sure to run `chmod +x bin/cable` and `./bin/rake db:create db:migrate` before running the beginning commands.
